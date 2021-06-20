@@ -25,6 +25,66 @@
   letter-spacing: 6px;
 }
 
+@media (min-width: 751px) {
+  .header {
+    background-image: url('../../images/desktop/image-header.jpg');
+    height: max(700px, 80%);
+  }
+
+  .header__nav {
+    padding: 2.5rem 0;
+  }
+
+  .header__logo, .header__links-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__logo {
+    width: min(200px, 23vw);
+    height: auto;
+  }
+
+  .header__logo-img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .header__links-list {
+    gap: 2rem;
+  }
+
+  .header__links-list__item {
+    font-family: 'Barlow', sans-serif;
+    font-size: min(1.25rem, 1.75vw);
+  }
+
+  .header__links-list__item:last-of-type {
+    font-family: 'Fraunces', serif;
+    color: #000;
+    text-transform: uppercase;
+
+    background-color: var(--white);
+    padding: 1rem 1.75rem;
+    border-radius: 2rem;
+  }
+
+  .header__menu-hamburger {
+    display: none;
+  }
+
+  .header__title-container {
+    margin-top: 4rem;
+    gap: 4rem;
+  }
+
+  .header__title {
+    font-size: 3.5rem;
+  }
+}
+
 @media (max-width: 750px) {
   .header {
     background-image: url('../../images/mobile/image-header.jpg');
