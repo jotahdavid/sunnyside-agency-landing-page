@@ -8,22 +8,34 @@
     <link rel="stylesheet" href="./src/css/main.css">
   </head>
   <body>
-    <header style="background-color: gray;">
-      <nav>
-        <a href="#">
-          <img src="./src/images/logo.svg" alt="Logo Sunnyside">
+    <header class="header">
+      <nav class="header__nav">
+        <a class="header__logo" href="#">
+          <img class="header__logo-img" src="./src/images/logo.svg" alt="Logo Sunnyside">
         </a>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="header__links-list">
+          <li class="header__links-list__item">
+            <a href="#">About</a>
+          </li>
+          <li class="header__links-list__item">
+            <a href="#">Services</a>
+          </li>
+          <li class="header__links-list__item">
+            <a href="#">Projects</a>
+          </li>
+          <li class="header__links-list__item">
+            <a href="#">Contact</a>
+          </li>
         </ul>
+
+        <div class="header__menu-hamburger">
+          <img class="header__menu-hamburger-img" src="./src/images/icon-hamburger.svg" alt="Menu hamburger">
+        </div>
       </nav>
 
-      <div>
-        <h1>We are creatives</h1>
-        <img src="./src/images/icon-arrow-down.svg" alt="">
+      <div class="header__title-container">
+        <h1 class="header__title">We are creatives</h1>
+        <img class="header__arrow" src="./src/images/icon-arrow-down.svg" alt="">
       </div>
     </header>
   </body>

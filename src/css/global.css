@@ -21,3 +21,21 @@
 * {
   margin: 0; padding: 0; box-sizing: border-box;
 }
+
+html {
+  font-size: 93.75%;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul, li {
+  list-style: none;
+}
