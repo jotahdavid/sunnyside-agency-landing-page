@@ -37,6 +37,47 @@
   color: var(--grayish-blue);
 }
 
+@media (min-width: 751px) {
+  .testimonials {
+    padding: 11rem 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.4rem;
+  }
+
+  .testimonials__title {
+    flex: 1 1 100%;
+    font-size: min(1.8rem, 2.5vw);
+    margin-bottom: 4.5rem;
+  }
+
+  .testimonials__card {
+    width: min(500px, 30%);
+  }
+
+  .testimonials__client-picture {
+    margin-bottom: 2.5rem;
+  }
+
+  .testimonials__client-testimonial {
+    width: min(400px, 95%);
+    font-size: min(1.3rem, 1.8vw);
+    text-align: center;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .testimonials__client-name {
+    font-size: min(1.4rem, 2.2vw);
+  }
+
+  .testimonials__client-profession {
+    font-size: min(1rem, 1.6vw);
+  }
+}
+
 @media (max-width: 750px) {
   .testimonials {
     padding: 6rem 0 1rem 0;
