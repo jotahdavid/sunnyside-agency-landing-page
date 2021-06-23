@@ -1,0 +1,19 @@
+.gallery {
+  width: 100%;
+  display: grid;
+}
+
+.gallery__picture-desktop,
+.gallery__picture-mobile {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery__picture-desktop {
+    display: none;
+  }
+}
