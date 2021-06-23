@@ -107,7 +107,7 @@
     width: min(550px, 80%);
 
     align-items: flex-start;
-    gap: 1.5rem;
+    gap: 2.5rem;
   }
 
   .presentation__title {
