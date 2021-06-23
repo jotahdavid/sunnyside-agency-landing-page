@@ -116,11 +116,11 @@
   }
 
   .presentation__body {
-    font-size: min(1.25rem);
+    font-size: 1.25rem;
   }
 
   .presentation__link {
-    font-size: min(1.3rem);
+    font-size: 1.3rem;
   }
 }
 
