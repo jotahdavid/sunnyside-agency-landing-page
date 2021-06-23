@@ -1,0 +1,38 @@
+.testimonials__title {
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: 5px;
+  color: var(--dark-grayish-blue);
+}
+
+.testimonials__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonials__client-picture {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.testimonials__client-testimonial {
+  font-family: 'Barlow', sans-serif;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.testimonials__client-name {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.testimonials__client-profession {
+  font-family: 'Barlow', sans-serif;
+  color: var(--grayish-blue);
+}
