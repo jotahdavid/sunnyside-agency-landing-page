@@ -61,15 +61,12 @@
 
 @media (min-width: 751px) {
   .presentation__article {
-    height: 400px;
+    height: 600px;
     display: flex;
   }
 
-  .presentation__image,
-  .presentation__content-container,
-  .presentation__content {
-    height: 100%;
-    width: 100%;
+  .presentation__image {
+    width: 50%;
   }
 
   .presentation__article:nth-of-type(1) > .presentation__image {
@@ -79,6 +76,11 @@
 
   .presentation__article:nth-of-type(2) > .presentation__image {
     background-image: url('../../images/desktop/image-stand-out.jpg');
+  }
+
+  .presentation__content-container {
+    height: 100%;
+    width: 50%;
   }
 
   .presentation__article:nth-of-type(1) > .presentation__content-container {
