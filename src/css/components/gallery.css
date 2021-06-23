@@ -8,6 +8,16 @@
   width: 100%;
 }
 
+@media (min-width: 751px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gallery__picture-mobile {
+    display: none;
+  }
+}
+
 @media (max-width: 750px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
