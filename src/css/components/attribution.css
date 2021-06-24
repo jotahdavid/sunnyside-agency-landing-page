@@ -28,6 +28,11 @@
 .attribution > p > a {
   font-family: 'Fraunces', serif;
   color: var(--very-dark-desaturated-blue);
+  transition: color .2s ease;
+}
+
+.attribution > p > a:hover {
+  color: #fff;
 }
 
 .attribution > p > a > i {

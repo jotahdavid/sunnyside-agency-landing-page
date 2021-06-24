@@ -64,7 +64,7 @@
     font-size: min(1.25rem, 1.75vw);
   }
 
-  .header__links-list__item:last-of-type {
+  .header__links-list__item:last-of-type > a {
     font-family: 'Fraunces', serif;
     color: #000;
     text-transform: uppercase;
@@ -72,6 +72,13 @@
     background-color: var(--white);
     padding: 1rem 1.75rem;
     border-radius: 2rem;
+
+    transition: color .3s ease, background-color .3s ease;
+  }
+
+  .header__links-list__item:last-of-type:hover > a {
+    color: var(--white);
+    background-color: rgba(255, 255, 255, 0.4);
   }
 
   .header__menu-hamburger,
