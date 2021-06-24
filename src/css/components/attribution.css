@@ -1,0 +1,35 @@
+.attribution {
+  width: 90%;
+  background-color: var(--dark-moderate-cyan);
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+
+.attribution > p {
+  font-family: 'Barlow', sans-serif;
+  font-size: min(1.3rem, 5.5vw);
+  color: var(--dark-desaturated-cyan);
+  padding: .5rem 0;
+
+  display: flex;
+  gap: .45rem;
+}
+
+.attribution > p:nth-of-type(2) > a {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.attribution > p > a {
+  font-family: 'Fraunces', serif;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.attribution > p > a > i {
+  font-size: 1.4rem;
+}
