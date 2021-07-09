@@ -67,7 +67,7 @@
 
 @media (min-width: 751px) {
   .presentation__article {
-    height: 600px;
+    height: 500px;
     display: flex;
   }
 
@@ -127,6 +127,12 @@
 
   .presentation__link {
     font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1350px) {
+  .presentation__article {
+    height: 600px;
   }
 }
 
